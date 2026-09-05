@@ -231,7 +231,7 @@ ul {
   gap: 20px;
 }
 
-.hero-buttons button {
+.hero-buttons a {
   background: none;
   border: none;
   border-bottom: 1px solid white;
@@ -239,9 +239,11 @@ ul {
   cursor: pointer;
   font-size: 15px;
   padding-bottom: 4px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.hero-buttons button:hover {
+.hero-buttons a:hover {
   opacity: 0.85;
 }
 
